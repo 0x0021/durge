@@ -1,34 +1,28 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
 local.properties
 
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
+# Keystore files - 不要提交到版本控制
+keystore.properties
 *.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+*.jks
+app/src/main/mihomo/durgecore.aar
+app/src/main/java/qialanfan/durge/doge/services/DurgeService.kt
+CELLULAR_DNS_TEST.md
+NETWORK_SWITCHING_FIX.md
+DNS_USAGE_EXAMPLE.md
+DNS_POWER_OPTIMIZATION_GUIDE.md
+CLASH_API_INTEGRATION.md
+CLASH_STYLE_DNS_MONITOR_USAGE.md
